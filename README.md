@@ -39,8 +39,8 @@ hover and focus states:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/HneenAlshelaly/SocialLinksProfile.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/HneenAlshelaly/SocialLinksProfile.git)
+- Live Site URL: [Git Pages](https://hneenalshelaly.github.io/SocialLinksProfile/)
 
 ## My process
 
