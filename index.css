@@ -1,0 +1,111 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --DarkGrey: hsl(0, 0%, 12%);
+    --OffBlack: hsl(0, 0%, 8%);
+    --Green: hsl(75, 94%, 57%);
+}
+
+body{
+    background-color: var(--OffBlack);
+}
+.mineCard{
+    background-color: var(--DarkGrey);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    /* padding: 20px;
+    margin: 20px; */
+    width: 30%;
+    height: 700px;
+
+
+}
+
+.Profile-img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    display: block;
+
+}
+
+.SocialBtm a{
+    background-color: var(--Grey);
+    color: var(--White);
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.SocialBtm a:hover,
+.SocialBtm a:active{
+    background-color: var(--Green) !important;
+    color: var(--OffBlack) !important;
+}
+
+h2{
+    color: var(--White);
+    margin: 0;
+
+}
+p{
+    color: var(--White);
+    margin: 0;
+
+}
+p.contry{
+    color: var(--Green);
+    margin: 0;
+}
+
+p.devlp{
+    color: grey;
+    margin: 0;
+}
+
+.attribution { font-size: 11px; text-align: center;color: var(--White); }
+.attribution a { color:var(--Green) }
+
+
+@media screen and (max-width: 1200px) and (min-width: 990px){
+    body{
+        width: 100%;
+    }
+    .mineCard{
+        font-size: small;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    body{
+        width: 100%;
+    }
+    .mineCard{
+        width: 50%;
+        font-size: smaller;
+    }
+    .mineCard p.devlp{
+        font-size: smaller;
+    }
+    
+}
+
+@media screen and (max-width: 767px) and (min-width: 330px) {
+    body{
+        width: 100%;
+    }
+    .mineCard{
+        width: 70%;
+        font-size: smaller;
+    }
+    .mineCard p.devlp{
+        font-size: smaller;
+    }
+
+    .SocialBtm{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+} 
