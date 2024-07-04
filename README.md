@@ -105,10 +105,6 @@ Bootstrap can help a lot wiht RDM websit a lot
 ```
 
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
 control the button size in RWD
